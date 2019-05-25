@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
 int stdin;
 scanf("%d",&stdin);
@@ -8,5 +8,6 @@ printf("zero");
 else if(stdin>0)
 printf("positive");
 else
-printf("negetive");
+printf("negative");
+  return 0;
 }
